@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Jersey+10&display=swap');
+
+:root{
+    --color-body:#b6cbce;
+    --color-heading:#eef3db;
+--color-base:#033f47;
+--color-base2:#022a30;
+--color-brand:#e0f780;
+--color-brand2:#deff58;
+--sidebar-width:240px;
+--font-base:"Bao Jamjuree";
+}
+
+body{
+    background-image: url('./images/360_F_311507184_0mErEL2kUw7z4AbXhsxPjFE7hQnY7BLy.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+
+/* background: transparent; */
+/* backdrop-filter: blur(20px); */
+}
+header h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header .navbar{
+    background-color:var(--color-base);
+}
+.navbar .nav-link{
+    color:#fff;
+font-weight: 700;
+
+text-transform: uppercase;
+}
+.header .navbar .nav-link.active{
+    color:var(--color-brand2);
+
+}
+.header .navbar .nav-link:hover{
+    color:var(--color-brand2)
+    }
+
+
+@media (min-width:990px){
+    .navbar{
+        min-height: 100vh;
+        width:var(--sidebar-width);
+        background: linear-gradient(rgba(3,63,71,0.8),rgba(3,63,71,0.8)),url(../images/sidebar-img.jpg);
+        background-size: cover;
+ background-position:center;
+    }
+    #content-wrapper{
+        padding-left: var(--sidebar-width);
+        }
+
+}
+

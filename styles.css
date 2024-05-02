@@ -1,0 +1,128 @@
+.bg-holder{
+    position:absolute;
+        width:100%;
+        min-height:100%;
+        top:0;
+        left:0;background-size: cover;
+        background-repeat: no-repeat;
+}
+h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.btn{
+    vertical-align: text-top;
+}
+.divider-content-center{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    background-color: #fff;
+    font-size:0.8rem;
+    font-weight:500;
+}
+
+
+.divider{
+    margin:2rem 0;
+
+}
+a{
+    text-decoration: none;
+}
+input{
+    border:0;
+    box-shadow: 0px;
+}
+.section{
+    height:100vh;
+    margin:10px;
+    padding:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white
+  
+}
+#joined{
+    display: none;
+    border:2px solid transparent;
+    width:75%;
+    box-shadow: 2px 2px 5px rgba(4, 210, 242, 0.771),
+    -2px -1px 5px rgba(24, 242, 238, 0.3);
+    background: linear-gradient(90deg,#0d89cc66,#04477f,#032f4f);
+    margin:10px;   
+    margin-top: 200px;
+    padding:10px;
+    align-items: center;
+    /* box-shadow: 2px 1px 1px rgba(#da1313) 2px; */
+    border-radius: 25px;
+}
+table td,table th{
+    border:2px solid #fff;
+   
+}
+
+table td,th{
+padding:10px;
+}
+
+#visited{
+    border:2px solid transparent;
+    width:75%;
+    box-shadow: 2px 2px 5px rgba(4, 210, 242, 0.771),
+    -2px -1px 5px rgba(24, 242, 238, 0.3);
+    background: linear-gradient(90deg,#0d89cc66,#04477f,#032f4f);
+
+    display:none;
+    /* background-color: red; */
+   
+    margin:10px;
+    margin-top: 200px;
+
+    padding:10px;
+    align-items: center;
+    border-radius: 25px;
+}
+#inprocess{
+    
+    display:none;
+    border:2px solid transparent;
+    width:75%;
+    box-shadow: 2px 2px 5px rgba(4, 210, 242, 0.771),
+    -2px -1px 5px rgba(24, 242, 238, 0.3);
+    background: linear-gradient(90deg,#0d89cc66,#04477f,#032f4f);
+
+    margin:10px;
+    margin-top: 200px;
+
+    padding:10px;
+    align-items: center;
+    border-radius: 25px;
+}
+#today{
+   
+    display:none;
+    border:2px solid transparent;
+    width:75%;
+    box-shadow: 2px 2px 5px rgba(4, 210, 242, 0.771),
+    -2px -1px 5px rgba(24, 242, 238, 0.3);
+    background: linear-gradient(90deg,#0d89cc66,#04477f,#032f4f);
+
+    margin:10px;
+    margin-top: 200px;
+
+    padding:10px;
+    align-items: center;
+    border-radius: 25px;
+}
+i{
+    font-size: large;
+    /* color:#032f4f */
+}
+.form-control:focus{
+    border-color:grey;
+    box-shadow: none;
+}
